@@ -43,3 +43,10 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.titles {
+  font-family: monospace;
+  white-space: normal;
+  word-break: break-word;
+  text-align: center;
+}
