@@ -55,7 +55,11 @@
             "Kaptein, M., & Parvinen, P. (2015). Advancing E-Commerce Personalization: Process Framework and Case Study. In International Journal of Electronic Commerce (Vol. 19, Issue 3, pp. 7–33). Informa UK Limited.": ["https://doi.org/10.1080/10864415.2015.1000216", "The paper draws on the topic of personalization by combining both psychological and technical perspectives. Additionally, it evaluates effects of personalization by heterogeneous responses than by mere average effect."],
             "Ozyurt, Y., Hatt, T., Zhang, C., & Feuerriegel, S. (2022). A Deep Markov Model for Clickstream Analytics in Online Shopping.": ["https://doi.org/10.1145/3485447.3512027", "The authors do not classify a clickstream to one predominant shopping phase only but handle the fact that people can both be shopping in a goal-oriented as well as a browsing manner within a single session"],
             "Hengst, F. D., Grua, E. M., Hassouni, A. E., Hoogendoorn, M., & Moise, I. (Ed.) (2020). Reinforcement learning for personalization: A systematic literature review. Data Science, 3(2), 107-147." : ["https://doi.org/10.3233/DS-200028", "that provides a nice overview over RL applications"],
-            "Xin, X., Karatzoglou, A., Arapakis, I., & Jose, J. (2020). Self-Supervised Reinforcement Learning for Recommender Systems. In Proceedings of the 43th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '20)." : ["https://storage.googleapis.com/gweb-research2023-media/pubtools/5608.pdf", " - a cool work that applies reinforcement learning to the 'standard' recommender system"]
+            "Xin, X., Karatzoglou, A., Arapakis, I., & Jose, J. (2020). Self-Supervised Reinforcement Learning for Recommender Systems. In Proceedings of the 43th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '20)." : ["https://storage.googleapis.com/gweb-research2023-media/pubtools/5608.pdf", " - a cool work that applies reinforcement learning to the 'standard' recommender system"],
+            "Efroni, Y., Kretzu, B., Jiang, D., Bhandari, J., Zheqing, , Zhu, , Ullrich, K. (2025). Aligned Multi Objective Optimization. arXiv preprint arXiv:2502.14096." : ["https://doi.org/10.48550/arXiv.2502.14096", "as it is one of the few paper (I know of) that talks about multi-objectivitiy in an aligned setting - rather interesting take"],
+            "Omid Rafieian; , Anuj Kapoor; , Amitt Sharma (2025) Multiobjective Personalization of Marketing Interventions. Marketing Science 44(2):457-477." : ["https://doi.org/10.1287/mksc.2023.0122", " as it brings the topic of multi-objectivity to marketing"],
+            "Athey, S., Keleher, N., & Spiess, J. (2025). Machine learning who to nudge: Causal vs predictive targeting in a field experiment on student financial aid renewal. Journal of Econometrics, (105945), 105945. doi:10.1016/j.jeconom.2024.105945" : ["https://doi.org/10.1016/j.jeconom.2024.105945", "The authors revisit the question of how to develop targeting policies by combining predictive analysis with effects of interventions."],
+            "Sawant, N., Namballa, C. B., Sadagopan, N., & Nassif, H. (2018). Contextual Multi-Armed Bandits for Causal Marketing. arXiv [Cs.LG]. doi:10.48550/ARXIV.1810.01859" : ["https://arxiv.org/pdf/1810.01859", " - combining bandits with causal effect estimation"]
         };
 
         const keys = Object.keys(papers);
@@ -63,7 +67,7 @@
         const [url, description] = papers[randomKey];
 
         document.getElementById("random-paper").innerHTML = 
-            `There are many great and interesting papers - one is <a href="${url}" target="_blank">${randomKey}</a>  ${description}.`;
+            `There are many great and interesting papers - one randomly drawn is <a href="${url}" target="_blank">${randomKey}</a>  ${description}.`;
         </script>
 
 
