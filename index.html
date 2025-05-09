@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>&#960; - The rather sparse webpage of adrianari</title>
+  <title>&#960;  </title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
 
     <section>
       <h2>About me</h2>
-      <p>Data scientist with a conceptual mind and a fascination for learning new things. My research interests lie in reinforcement learning, causal inference, and personalisation. An interesting combinations thereof is the usage of treatment effects as reward signals in sequential decision making, such as within e-commerce. </p>
+      <p>Data scientist with a conceptual mind and a fascination for learning new things. My research interests lie in reinforcement learning, causal inference, and personalisation. An interesting combinations thereof is the usage of treatment effects as reward signals in sequential decision making. </p>
     </section>
 
     <section>
@@ -38,7 +38,7 @@
       <h2>Publications</h2>
       <p>A list of my work is on <a target="_blank" href ="https://scholar.google.com/citations?user=DjBIj1QAAAAJ">Google Scholar</a>, whereas an even smaller selection is featured below</p>
       <ul>
-        <li><a target="_blank" href="./assets/returnIntent.pdf">The Power of Session-Level Data: Predicting Return Intent Along the Browsing Journey</a> – where we explored the extent to which return intent can be (somewhat dynamically) inferred from clickstream data before a purchase.</li>
+        <li><a target="_blank" href="./assets/returnIntent.pdf">The Power of Session-Level Data: Predicting Return Intent Along the Browsing Journey</a> – where we explored whether return intent can be (somewhat dynamically) inferred from clickstream data along the purchase process. (Spoiler alert: Yes, this is possible).</li>
         <br>
         <li><a target="_blank" href="./assets/gnns_for_a_p2p_sharing_economy_platform.pdf">Forecasting is all we need: Adapting graph neural network methods for a peer-to-peer sharing economy platform</a> – where we adapted Graph Neural Network models from basket and traffic prediction to forecast product popularity in complex, data-sparse two-sided marketplaces.</li>
       </ul>
@@ -69,10 +69,12 @@
         const [url, description] = papers[randomKey];
 
         document.getElementById("random-paper").innerHTML = 
-            `There are many great and interesting papers - one randomly drawn is <a href="${url}" target="_blank">${randomKey}</a>  ${description}.`;
+            `There are many great and interesting papers - one is <a href="${url}" target="_blank">${randomKey}</a>  ${description}.`;
         </script>
 
-
+<footer class="site-footer">
+  <p>I'm also on <a href = "https://www.linkedin.com/in/adriana-ricklin-13965098/">LinkedIn</a> or on <a href = "https://github.com/adrianari">GitHub</a>  </p>
+</footer>
 
   </div>
 </body>

@@ -17,8 +17,9 @@ body {
   background: white;
   padding: 4.8rem;
   padding-top: 2.8rem; 
+  padding-bottom: 2.5rem; 
   margin-top: 0.8rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1rem;
   border: 1px solid rgb(108, 108, 108);
   box-sizing: border-box;
 }
@@ -51,6 +52,28 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+
+
+
+footer {
+  text-align: center;   
+  color: gray;          
+  padding: 12px;        
+  background-color: #f1f1f1; 
+  margin-top: 60px;  
+}
+
+
+.site-footer a {
+  color: gray;
+  font-weight: bold;  
+}
+
+.site-footer a:hover {
+  color: #555555;
+}
+
 
 .titles {
   font-family: monospace;
